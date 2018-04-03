@@ -1,0 +1,5 @@
+org\ge\app\mobile_automation\AppTest.class
+org\ge\svmxlib\BaseLib.class
+org\ge\svmxlib\GenericLib.class
+org\ge\svmxobjects\LoginPO.class
+org\ge\svmxtests\SampleTest.class

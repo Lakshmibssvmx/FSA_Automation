@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="-1" guice-stage="DEVELOPMENT" name="Failed suite [Suite]">
+  <listeners>
+    <listener class-name="com.kirwa.nxgreport.listners.NXGTestListner"/>
+  </listeners>
+  <test name="Test(failed)">
+    <classes>
+      <class name="org.ge.svmxtests.SampleTest">
+        <methods>
+          <include name="startServer"/>
+          <include name="initObjects"/>
+          <include name="launchingApp"/>
+          <include name="setAPP"/>
+          <include name="toEdit"/>
+        </methods>
+      </class> <!-- org.ge.svmxtests.SampleTest -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->
